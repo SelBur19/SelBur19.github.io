@@ -1,0 +1,24 @@
+.blue{
+background: rgb(232,63,92);
+background: linear-gradient(90deg, rgba(232,63,92,1) 0%, rgba(108,149,210,1) 100%);
+padding: 50px;
+margin: 50px;
+text-align: center;
+
+}
+
+.pink{
+	background: rgb(151,206,235);
+background: radial-gradient(circle, rgba(151,206,235,1) 0%, rgba(236,92,155,1) 45%, rgba(70,111,231,0.7147233893557423) 100%);
+padding: 50px;
+margin: 50px;
+text-align: center;
+}
+
+.red{
+background: rgb(27,226,177);
+background: linear-gradient(0deg, rgba(27,226,177,1) 9%, rgba(62,108,220,1) 20%, rgba(164,78,217,1) 46%, rgba(215,98,220,1) 79%, rgba(125,209,236,0.5606617647058824) 97%);
+padding: 50px;
+margin: 50px;
+text-align: center;
+}
