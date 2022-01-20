@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora&family=Neonderthaw&display=swap');
+
+h1{
+	font-family:Lora ;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	font-family:Neonderthaw ;
+	text-align: right;
+	color: white;
+}
+
+p{
+	font-family: "Dancing Script";
+	column-count: 3;
+	line-height: 1.5;
+	margin: 50px;
+	text-align: justify;
+	color: white;
+}
+
+.signature{
+	font-family: "Dancing Script";
+	font-size: 50px;
+}
+
+
+body{
+	background: rgb(232,63,92) linear-gradient(90deg, rgba(232,63,92,1) 0%, rgba(108,149,210,1) 100%);
+}
