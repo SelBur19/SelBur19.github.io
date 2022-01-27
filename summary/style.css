@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+h1{
+	font-size:50px;
+	display: block;
+    padding: 20px;
+	text-align: center;
+	font-family:Neonderthaw ;
+	color: white;
+}
+body{
+	background: rgb(212,173,141);
+background: linear-gradient(90deg, rgba(212,173,141,0.9192051820728291) 0%, rgba(102,72,36,0.9192051820728291) 98%);
+}
+
+p{
+	font-family:Neonderthaw ;
+	color: white;
+	font-size: 20px;
+    
+
+}
+
+img{ float: right;
+	 width: 300px;
+
+}
+
+ol{
+	font-size: 30px;
+}
+
+a{
+	color: white;
+}
