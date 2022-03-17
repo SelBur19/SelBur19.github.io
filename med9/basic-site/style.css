@@ -1,0 +1,144 @@
+/*
+* Title:  Dolphins live
+* Author: Selma Burrja
+* Date: 17.03.2022
+* 
+*/
+
+/**********************General Styling*****************************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Ramaraja&display=swap');
+
+:root{
+	scroll-behavior: smooth;
+}
+
+body{
+
+margin:0;
+
+
+}
+
+/* Navigation */
+
+
+nav{
+
+background: linear-gradient(90deg, rgba(164,198,236,1) 0%, rgba(37,138,191,1) 100%);
+
+display: flex;
+
+justify-content: space-between; /* To make the links on the right side and the logo on the left */
+
+align-items: center;
+
+padding:30px;
+
+
+
+}
+
+
+
+nav img{
+
+height:100px;
+
+border-radius:50%;
+
+
+
+}
+
+nav ul{
+
+display: flex;
+
+justify-content: flex-end;
+
+align-items: center;
+
+list-style-type: none; /* It removes the bullet points */
+
+}
+
+nav ul li a{
+
+margin:20px;
+
+padding:20px;
+
+text-decoration: none; /* It removes the underline */
+
+background-color: white;
+
+border-radius:15px;
+
+color: lightblue;
+
+font-family:Playfair+Display ;
+
+}
+
+nav ul li a:hover{
+	/* Hover changes the elemente if we move the mouse over it */
+
+background-color: skyblue;
+
+color: white;
+
+}
+
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("dolphin.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
+
+header h1{
+	font-size: 30px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Main */
+main {
+	padding: 60px;
+	background:  radial-gradient(circle, rgba(125,241,212,1) 47%, rgba(43,162,179,1) 100%);
+
+}
+
+main h2{
+	color: white;
+	font-size: 30px;
+
+}
+
+main p{
+	background-color: lightskyblue;
+	padding: 20px;
+}
+
+/* Footer */
+footer {
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(SELMA.jpg);
+	background-size: cover;
+	background-position: center;
+}
+footer p{
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	border-radius: 15px;
+}
