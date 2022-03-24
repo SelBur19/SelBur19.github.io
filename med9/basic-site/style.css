@@ -127,6 +127,27 @@ main p{
 	padding: 20px;
 }
 
+/* Section */
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+section .left{
+	width: 40%;
+	background-color: lightskyblue;
+	padding: 30px;
+
+}
+
+section .right{
+	width: 60%;
+	background-color: darkblue;
+	padding: 30px;
+	color: white;
+}
+
 /* Footer */
 footer {
 	height: 400px;
@@ -141,4 +162,35 @@ footer p{
 	background-color: rgba(255, 255, 255, 0.7);
 	padding: 10px;
 	border-radius: 15px;
+}
+
+
+/************************************ Page Styling*************************************************/
+/* Home Page */
+#home header{
+	background-image: url("Bild 1.jpg");
+}
+ #home #cities{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-wrap: 1px solid darkblue;
+ }
+
+#home #cities img {
+	width: 100px;
+	margin: 10px;
+	border: 10px double darkblue;
+
+}
+
+
+/* Contact Page */
+#contact header {
+	background-image: url("Bild 2.jpg");
+}
+
+#contact main p{
+	background-color: white;
+	padding: 50px;
 }
