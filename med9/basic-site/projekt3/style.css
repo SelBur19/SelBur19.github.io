@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script:wght@400;500&family=Fuzzy+Bubbles&family=Hubballi&family=:wght@200&family=Pacifico&family=Raleway:wght@100&display=swap');
+/*
+*
+* Title:  Selma Schmuck
+* Author:Selma Burrja
+* Date: 08.04.2022
+*/
+
+/************** General Styling **************/
+:root{
+scroll-behavior: smooth;
+}
+body{
+margin: 0;
+
+}
+/* Navigation*/
+nav{
+background: linear-gradient(90deg, rgba(18,232,240,1) 0%, rgba(11,164,196,1) 100%);
+display: flex;
+justify-content: space-between; /* To make the links on the right side and the loge on the left */
+align-items: center;
+padding: 30px;
+
+}
+
+nav img{
+height: 90px;
+border-radius: 80%; /* To make the logo round */
+
+}
+nav ul{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type: none; /* It removes the bullet points */
+}
+nav ul li a{
+margin: 20px;
+padding: 20px;
+text-decoration: none; /* It removes the underline */
+background-color: white;
+border-radius: 15px;
+color: lightblue;
+font-family:Raleway ;
+
+
+}
+nav ul li a:hover{
+/* Hover changes the element if we move the mouse over it */
+background-color: lightblue;
+color: white;
+}
+
+/* Header */
+header{
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url("A.jpg");
+background-position: center;
+background-size: cover;
+}
+header h1{
+font-size: 30px;
+background: rgba(255, 255, 255);
+}
+
+/* Main */
+main{
+padding: 60px;
+background: linear-gradient(90deg, rgba(15,141,206,1) 0%, rgba(23,112,152,1) 48%, rgba(59,177,221,1) 100%);
+
+}
+main h2{
+color: white;
+font-size: 30px;
+text-align:center;
+}
+
+main p{
+
+padding: 20px;
+text-align:center;
+}
+
+/*Section*/
+section{
+display: flex;
+justify-content:  center;
+align-items:center;
+background: linear-gradient(90deg, rgba(237,188,215,1) 0%, rgba(59,209,239,1) 100%);
+}
+section .rings{
+width: 40%;
+background:  linear-gradient(90deg, rgba(55,254,255,1) 0%, rgba(24,174,195,1) 48%, rgba(10,213,232,1) 100%);
+padding: 30px;
+}
+section .store{
+width: 60%;
+background: linear-gradient(90deg, rgba(55,254,255,1) 0%, rgba(24,174,195,1) 48%, rgba(10,213,232,1) 100%);
+padding: 30px;
+color: white;
+}
+
+
+
+
+
+/* Footer */
+footer{
+height: 200px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-image: url("hallo.jpg");
+background-size: cover;
+background-position: center;
+}
+
+footer p{
+background: radial-gradient(circle,rgba(210,210,210,0.8380485983455882) 0%, rgba(203,205,207,0.2918301109506303) 100%);
+padding: 10px;
+border-radius: 15px;
+}
+
+/************ Page Styling ************/
+
+/* Home page */
+
+#home header{
+background-image: url(S.jpg);
+}
+#home #selma{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.selma{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+background:linear-gradient(90deg, rgba(217,118,173,1) 0%, rgba(59,209,239,1) 100%) ;
+margin:0px;
+}
+
+
+
+
+
+
+
