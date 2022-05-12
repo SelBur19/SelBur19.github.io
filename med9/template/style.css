@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@200&family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+
+nav {
+display: flex;
+justify-content: space-between;
+border-radius: all;
+
+
+
+padding: 3px;
+position: fixed;
+width: calc(100% - 60px);
+border-bottom: solid black 1px;
+
+
+
+}
+
+
+
+#a {
+font-family: Open Sans;
+}
+
+
+
+.Br {
+font-family: Koulen;
+}
+
+
+
+
+
+nav ul li a {
+margin: 20px;
+padding: 20px;
+text-decoration: none;/*removes underline*/
+border-radius: 15px;
+font-size:15px ;
+font-family:Montserrat;
+background: white;
+color: black; 
+
+
+
+}
+
+
+
+
+nav ul {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type: none;/*removes bullet point*/
+justify-content: flex-end;
+}
+
+section{
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+}
+article .summer{
+width:200px ;
+height: 170px;
+background-image: url("summer.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+position: absolute;
+top: 80px;
+left: 0px;
+margin: 30px;
+}
+article .box{
+background-color: black;
+color: white;
+padding: 8px;
+font-size: 11px;
+text-transform: uppercase;
+position: absolute;
+top: 80px;
+left: 0px;
+margin: 30px;
+}
+
+
+
