@@ -1,0 +1,36 @@
+nav ul{ 
+	font-family: Calibri;
+    background-color: darkgray;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: white;
+
+
+}
+
+nav img{
+	width: 160px;
+	height: 160px;
+
+}
+
+nav{
+	background-color: lightgray;
+	height: 160px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+}
+
+body{
+	background-color: darkgray;
+	margin: 0;
+}
+
+nav ul li a{
+	background-color: lightcoral;
+	text-transform: uppercase;
+	margin: 15px;
+}
