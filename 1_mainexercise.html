@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Design</title>
+	<style type="text/css">
+
+*{
+	/* Nav, Article und Aside sind mit dem Padding größer als 100%. Die drei Bereiche erscheinen daher nicht nebeneinaamder. Box-sizing:  border-box.... alle Grossenangeben umfassen das gesamte Element(inkl. Padding, Margin,...)*/
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		/* Zu lange Wörter ragen aus dem Container raus. Word-Wrap: break-word ... teilt das Wort auf zwei Zeien auf. */
+			word-wrap: break-word ;
+
+
+		} 
+
+		/* Design für das Samrtphone*/
+
+		header{
+			background-color: lightgray;
+			padding: 25px;
+		}
+
+		nav{
+			background-color: lightcoral;
+			padding: 25px;
+			
+					}
+
+		article{
+			background-color: lightgoldenrodyellow;
+			padding: 25px;
+			
+			
+		}
+
+		aside{
+			background-color: lightskyblue;
+			padding: 25px;
+			
+	
+		}
+        
+			header, nav, article, aside {
+			width: 100px;
+		}
+		
+
+
+
+		/* Design für das Desktop*/
+
+				@media (min-width: 768%) {
+
+			header{
+				
+				background-color: lightgray;
+			padding: 25px;}
+
+		
+		
+		
+
+		nav, aside{
+		
+			width: 25%;
+			float: left;
+		}
+
+		article{
+			
+			width: 50%;
+			float: left;
+		}
+
+
+     /* Bessere Lesbarkeit, wenn nicht die gesamte Breite ausgenutzt wird. Kürzere Zeilen! */
+		#container {
+			width: 70%;
+			margin: auto;/* Bereich wird mitting angezeigt */
+		}
+
+}
+		
+	</style>
+</head>
+<body>
+
+	<div id="container"></div>
+	<header>
+		<h1>Überschrift</h1>
+		</header>
+	<nav>
+		<ul> 
+           <li>Seite 1</li>
+           <li>Seite 2</li>
+           <li>Seite 3</li>
+           <li>Seite 4</li>
+           <li>Seite 5</li>
+		
+		</ul>
+	</nav>	
+	<article>
+		<h2>Zwischenüberschrift</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra pulvinar convallis. Praesent ac mi venenatis, cursus risus et, malesuada enim. Nulla arcu nibh, accumsan at nunc vitae, viverra mattis velit. Fusce ut metus et lectus iaculis pharetra sit amet id elit. Donec lacus mi, euismod ac blandit eget, tempor ut felis. Sed ultricies id purus at lacinia. Nulla ac fermentum nisi, sed fermentum mi. Vivamus tincidunt imperdiet dictum. Suspendisse pretium sollicitudin diam, ac dictum enim maximus ac. Curabitur non euismod ex, nec blandit dolor. Integer pretium consectetur maximus. Suspendisse nec augue quis turpis vestibulum tincidunt. Proin ullamcorper urna ultricies, dictum leo eget, aliquet urna. Nullam a velit interdum, ultricies nunc non, ullamcorper quam. Nulla malesuada maximus ligula id varius. </p>
+	</article>
+
+	<aside>
+		<h2>Zwischenüberschrift</h2>
+		<p>Curabitur at magna vitae justo lacinia bibendum ac sit amet leo. Nulla condimentum posuere ligula et pharetra. Curabitur tincidunt, velit nec lobortis molestie, purus lectus rutrum odio, quis tincidunt libero lorem quis diam. Vivamus imperdiet sem lorem, nec tempor enim suscipit at. Sed id fermentum diam. Sed eget faucibus sapien. Suspendisse at nunc in augue posuere vulputate vitae quis nunc. Curabitur id libero rhoncus, feugiat nulla ac, congue urna. Praesent elementum ante ut aliquam interdum. Etiam eget lectus elit. Sed rutrum metus nulla, sed ultrices sapien gravida at. Nullam placerat sem ac ipsum interdum molestie. Curabitur tempor risus nec arcu posuere dapibus. Vivamus placerat lorem at ipsum pulvinar, a facilisis urna lacinia. </p>
+	</aside>
+
+
+	
+   
+</body>
+</html>
