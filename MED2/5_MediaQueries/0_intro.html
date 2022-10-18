@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media Queries</title>
+
+	<style type="text/css">
+		
+/* Zuerst das Design fur keine Gerate, dann fur grosse Gerate */
+
+	  h1{
+	  	background-color: lightskyblue;
+	  	font-size: 30px ;
+	  }
+
+/* Design fur den Desktop:
+Trenlinie zw. Smartphone/Tablet und Desktop 768px)*/
+
+@media (min-width: 768px){
+
+		h1{
+			background-color: red;
+			font-size:50px;
+
+		}
+	}
+
+		
+</style>
+
+</head>
+<body>
+	<h1>Media Queries</h1>
+
+
+	<p>Please change the width of your browser!</p>
+
+</body>
+</html>
