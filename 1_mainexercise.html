@@ -45,24 +45,41 @@
 		}
         
 			header, nav, article, aside {
-			width: 100px;
+			width: 100%;
 		}
 		
+
+		/* Design Tablet */
+		@media (min-width: 600px){
+			
+			article{
+				width: 60%;
+				float: left;
+			}
+
+			aside{
+				width: 40%;
+				float: left;
+
+			}
+
+			li{
+				display: block;
+			}
+
+			
+
+
+
+		}
 
 
 
 		/* Design für das Desktop*/
 
-				@media (min-width: 768%) {
+				@media (min-width: 768px) {
 
-			header{
-				
-				background-color: lightgray;
-			padding: 25px;}
 
-		
-		
-		
 
 		nav, aside{
 		
@@ -77,19 +94,24 @@
 		}
 
 
+		li{
+				display: block;
+			}
+
+
      /* Bessere Lesbarkeit, wenn nicht die gesamte Breite ausgenutzt wird. Kürzere Zeilen! */
 		#container {
 			width: 70%;
 			margin: auto;/* Bereich wird mitting angezeigt */
 		}
-
 }
+
 		
 	</style>
 </head>
 <body>
 
-	<div id="container"></div>
+	<div id="container">
 	<header>
 		<h1>Überschrift</h1>
 		</header>
@@ -112,6 +134,7 @@
 		<h2>Zwischenüberschrift</h2>
 		<p>Curabitur at magna vitae justo lacinia bibendum ac sit amet leo. Nulla condimentum posuere ligula et pharetra. Curabitur tincidunt, velit nec lobortis molestie, purus lectus rutrum odio, quis tincidunt libero lorem quis diam. Vivamus imperdiet sem lorem, nec tempor enim suscipit at. Sed id fermentum diam. Sed eget faucibus sapien. Suspendisse at nunc in augue posuere vulputate vitae quis nunc. Curabitur id libero rhoncus, feugiat nulla ac, congue urna. Praesent elementum ante ut aliquam interdum. Etiam eget lectus elit. Sed rutrum metus nulla, sed ultrices sapien gravida at. Nullam placerat sem ac ipsum interdum molestie. Curabitur tempor risus nec arcu posuere dapibus. Vivamus placerat lorem at ipsum pulvinar, a facilisis urna lacinia. </p>
 	</aside>
+	</div>
 
 
 	
